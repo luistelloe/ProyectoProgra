@@ -1,0 +1,58 @@
+.destacados {
+  padding: 60px 80px;
+  background-color: #181818;
+  color: white;
+  text-align: center;
+}
+
+.destacados h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.grid-juegos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.juego {
+  background-color: #222;
+  border-radius: 10px;
+  padding: 15px;
+  width: 220px;
+  transition: box-shadow 0.2s ease;
+}
+
+.juego:hover {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+.juego img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.juego h3 {
+  margin: 15px 0 5px;
+}
+
+.juego p {
+  color: #0f0;
+  font-weight: bold;
+}
+
+.juego button {
+  background-color: #ff4040;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 14px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.juego button:hover {
+  background-color: #ff1a1a;
+}

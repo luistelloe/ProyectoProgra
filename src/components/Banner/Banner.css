@@ -1,0 +1,36 @@
+main .seccionHero {
+  background-image: url('../../assets/fc-26.webp');
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start; 
+  padding: 60px;
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+main .seccionHero h2 {
+  color: white;
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+main .seccionHero button {
+  background-color: #e60000; 
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s;
+  width: fit-content;
+  transition: transform 0.2s;
+}
+
+main .seccionHero button:hover {
+  background-color: #ff3333;
+  transform: scale(1.05);
+}
